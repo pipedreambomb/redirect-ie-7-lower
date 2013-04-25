@@ -5,5 +5,5 @@ Package.describe({
 Package.on_use(function (api, where) {
 	where = where || ['client'];
 
-	api.add_files('lib/alert.js', where);
+	api.add_files('lib/noie.js', where);
 });
